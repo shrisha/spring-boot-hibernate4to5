@@ -36,6 +36,7 @@ CREATE TABLE `User` (
 
 ```alter table Tweet add constraint FKtjo83phj1ffkewrkbxqmfvw36 foreign key (user_id) references User (id)```
 
+The [issue against Hibernate](https://hibernate.atlassian.net/browse/HHH-10574) appears to have stalled.
 
 
 
