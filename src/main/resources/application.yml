@@ -3,15 +3,9 @@ spring.datasource:
     url: jdbc:mysql://localhost:3306/h4to5?autoReconnect=true&useSSL=false
     username: app
     password: app
-    validation-query: SELECT 1
-    test-on-borrow: true
 
 spring.jpa:
   database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
   hibernate:
-#    naming:
-#      implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyHbmImpl
-#      physical-strategy: com.intuit.platform.common.strategy.Hibernate4PhysicalStrategy
     ddlAuto: update
-    naming_strategy: org.hibernate.cfg.EJB3NamingStrategy
   show-sql: true

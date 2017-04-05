@@ -1,0 +1,9 @@
+spring.jpa:
+  hibernate:
+    naming:
+      implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
+      physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    ddlAuto: update
+  show-sql: true
+  properties:
+    hibernate.ejb.naming_strategy: org.hibernate.cfg.EJB3NamingStrategy
