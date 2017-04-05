@@ -39,7 +39,7 @@ CREATE TABLE `Tweet` (
 
 The [issue against Hibernate](https://hibernate.atlassian.net/browse/HHH-10574) appears to have stalled.
 
-Our DB that houses 100s of tables with many tables containing 100s of millions of rows, re-creating foreign keys (technically, Hibernate is creating duplicate keys) is simply not an option.
+On our DB that houses 100s of tables with many tables containing 100s of millions of rows, re-creating foreign keys (technically, Hibernate is creating duplicate keys) is simply not an option.
 
 
 
